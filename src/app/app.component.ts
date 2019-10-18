@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { WorkerService } from './worker.service';
-import { WorkerMessage } from 'src/worker/app-workers/shared/worker-message.model';
+import { WorkerMessage } from '../worker/app-workers/shared/worker-message.model';
 import { WORKER_TOPIC } from '../worker/app-workers/shared/worker-topic.constants';
 @Component({
   selector: 'app-root',

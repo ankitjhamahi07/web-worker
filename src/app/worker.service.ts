@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Subject, Observable, Subscription, fromEvent } from 'rxjs';
-import { WorkerMessage } from 'src/worker/app-workers/shared/worker-message.model';
+import { WorkerMessage } from '../worker/app-workers/shared/worker-message.model';
 @Injectable()
 export class WorkerService {
     public readonly workerPath = 'assets/workers/main.js';
